@@ -60,9 +60,9 @@ This command will take the images under the ```dataroot/testA/``` and ```dataroo
 
 Examples of the generated outputs (default params) apple2orange, summer2winter_yosemite, horse2zebra dataset:
 
-![Alt text](.output/imgs/0167.png)
-![Alt text](.output/imgs/0035.png)
-![Alt text](.output/imgs/0111.png)
+![Alt text](./output/imgs/0167.png)
+![Alt text](./output/imgs/0035.png)
+![Alt text](./output/imgs/0111.png)
 
 
 
