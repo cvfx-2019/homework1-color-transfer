@@ -12,6 +12,7 @@ A clean and readable Pytorch implementation of CycleGAN (https://arxiv.org/abs/1
 
 ## Getting Started
 Please first install [Anaconda](https://anaconda.org) and create an Anaconda environment using the environment.yml file.
+
 ```
 conda env create -f environment.yml
 ```
@@ -26,6 +27,7 @@ Our current implementation only supports GPU so you need a GPU and need to have 
 ## Training
 ### 1. Download dataset
 ```
+mkdir datasets
 bash ./download_dataset <dataset_name>
 ```
 Valid <dataset_name> are: apple2orange, summer2winter_yosemite, horse2zebra, monet2photo, cezanne2photo, ukiyoe2photo, vangogh2photo, maps, cityscapes, facades, iphone2dslr_flower, ae_photos
