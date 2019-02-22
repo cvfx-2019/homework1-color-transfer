@@ -26,8 +26,7 @@ Our current implementation only supports GPU so you need a GPU and need to have 
 
 ## Training
 ### 1. Download dataset
-The pre-trained file is on [Google drive](https://drive.google.com/open?id=17FREtttCyFpvjRJxd4v3VVlVAu__Y5do). Download the file and save it on  ```./output/<dataset_name>/netG_A2B.pth``` and ```./output/<dataset_name>/netG_B2A.pth```. 
- 
+
 ```
 mkdir datasets
 bash ./download_dataset.sh <dataset_name>
@@ -57,6 +56,8 @@ If you don't own a GPU remove the --cuda option, although I advise you to get on
 
 
 ## Testing
+The pre-trained file is on [Google drive](https://drive.google.com/open?id=17FREtttCyFpvjRJxd4v3VVlVAu__Y5do). Download the file and save it on  ```./output/<dataset_name>/netG_A2B.pth``` and ```./output/<dataset_name>/netG_B2A.pth```. 
+ 
 ```
 python test.py --dataroot datasets/<dataset_name>/ --cuda
 ```
