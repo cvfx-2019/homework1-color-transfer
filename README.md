@@ -9,6 +9,8 @@ A clean and readable Pytorch implementation of CycleGAN (https://arxiv.org/abs/1
 4.  30% (Assistant) 
 5.  20% (Mutual evaluation)
 
+reference:
+[Super fast color transfer between images](https://github.com/jrosebr1/color_transfer)
 
 ## Getting Started
 Please first install [Anaconda](https://anaconda.org) and create an Anaconda environment using the environment.yml file.
